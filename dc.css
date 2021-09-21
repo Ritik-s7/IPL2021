@@ -1,0 +1,31 @@
+.dc span {
+  font-style: normal;
+  font-family: fantasy;
+  font: bolder;
+  font-size: larger;
+  color: #023e8a;
+}
+
+.dc {
+  /* text-decoration-line: underline;*/
+  text-shadow: rgb(212, 49, 52) 2px 0 10px;
+}
+
+#dctxt {
+  margin-top: 75px;
+}
+
+.dc-content {
+  text-align: justify;
+  font: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #012a4a;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.dc-content::selection {
+  background-color: rgb(255, 164, 166);
+  color: #023e8a;
+}

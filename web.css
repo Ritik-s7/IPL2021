@@ -23,27 +23,42 @@
   font-size: 2 rem;
 }
 
-.team span {
+.csk span {
   font-style: normal;
   font-family: fantasy;
   font: bolder;
+  font-size: larger;
   color: yellow;
 }
 
-.team {
-  text-decoration-line: underline;
+.csk {
+  /* text-decoration-line: underline;*/
   text-shadow: #fc0 1px 0 10px;
 }
 
-.team-content {
+.csk-content {
   text-align: justify;
   font: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #012a4a;
   padding-bottom: 10px;
   padding-top: 10px;
+  margin-right: 10px;
 }
 
 .col-lg-6 img {
-  border-radius: 20px;
-  height: fit-content;
+  margin-top: 75px;
+  border-radius: 50%;
+}
+
+.csk-content::selection {
+  background-color: yellow;
+}
+
+section p {
+  background-color: aliceblue;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: #012a4a;
+  border-radius: 30px;
 }

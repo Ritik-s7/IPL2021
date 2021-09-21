@@ -1,0 +1,31 @@
+.mi span {
+  font-style: normal;
+  font-family: fantasy;
+  font: bolder;
+  font-size: larger;
+  color: rgb(0, 75, 160);
+}
+
+.mi {
+  /* text-decoration-line: underline;*/
+  text-shadow: #042f68 2px 0 15px;
+}
+
+#mitxt {
+  margin-top: 75px;
+}
+
+.mi-content {
+  text-align: justify;
+  font: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #012a4a;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.mi-content::selection {
+  color: skyblue;
+  background-color: rgb(0, 75, 160);
+}

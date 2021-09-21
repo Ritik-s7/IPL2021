@@ -31,6 +31,11 @@
   color: yellow;
 }
 
+#csktxt:hover {
+  font-size: 215%;
+  color: rgba(255, 255, 0, 0.904);
+}
+
 .csk {
   /* text-decoration-line: underline;*/
   text-shadow: #fc0 1px 0 10px;

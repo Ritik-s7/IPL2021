@@ -8,7 +8,12 @@
 
 .mi {
   /* text-decoration-line: underline;*/
-  text-shadow: #042f68 2px 0 15px;
+  text-shadow: goldenrod 2px 0 15px;
+}
+
+#mitxt:hover {
+  font-size: 215%;
+  color: rgb(0, 75, 160);
 }
 
 #mitxt {

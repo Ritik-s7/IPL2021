@@ -6,6 +6,11 @@
   color: #023e8a;
 }
 
+#dctxt:hover {
+  font-size: 215%;
+  color: #023e8a;
+}
+
 .dc {
   /* text-decoration-line: underline;*/
   text-shadow: rgb(212, 49, 52) 2px 0 10px;

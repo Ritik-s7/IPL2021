@@ -1,0 +1,36 @@
+.rcb span {
+  font-style: normal;
+  font-family: fantasy;
+  font: bolder;
+  font-size: larger;
+  color: crimson;
+}
+
+#rcbtxt:hover {
+  font-size: 215%;
+  color: crimson;
+}
+
+.rcb {
+  /* text-decoration-line: underline;*/
+  text-shadow: goldenrod 2px 0 10px;
+}
+
+#rcbtxt {
+  margin-top: 75px;
+}
+
+.rcb-content {
+  text-align: justify;
+  font: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #012a4a;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.rcb-content::selection {
+  background-color: crimson;
+  color: goldenrod;
+}

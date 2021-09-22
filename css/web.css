@@ -54,6 +54,8 @@
 .col-lg-6 img {
   margin-top: 75px;
   border-radius: 50%;
+  height: 500px;
+  width: 800px;
 }
 
 .csk-content::selection {

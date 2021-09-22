@@ -1,0 +1,36 @@
+.kkr span {
+  font-style: normal;
+  font-family: fantasy;
+  font: bolder;
+  font-size: larger;
+  color: midnightblue;
+}
+
+#kkrtxt:hover {
+  font-size: 215%;
+  color: midnightblue;
+}
+
+.kkr {
+  /* text-decoration-line: underline;*/
+  text-shadow: darkgoldenrod 2px 0 10px;
+}
+
+#kkrtxt {
+  margin-top: 75px;
+}
+
+.kkr-content {
+  text-align: justify;
+  font: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #012a4a;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.kkr-content::selection {
+  background-color: midnightblue;
+  color: darkgoldenrod;
+}

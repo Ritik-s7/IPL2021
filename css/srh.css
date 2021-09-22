@@ -1,0 +1,36 @@
+.srh span {
+  font-style: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font: bolder;
+  font-size: larger;
+  color: chocolate;
+}
+
+#srhtxt:hover {
+  font-size: 215%;
+  color: chocolate;
+}
+
+.srh {
+  /* text-decoration-line: underline;*/
+  text-shadow: black 2px 0 10px;
+}
+
+#srhtxt {
+  margin-top: 75px;
+}
+
+.srh-content {
+  text-align: justify;
+  font: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #012a4a;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.srh-content::selection {
+  background-color: chocolate;
+  color: black;
+}

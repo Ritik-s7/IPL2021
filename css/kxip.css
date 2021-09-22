@@ -1,0 +1,36 @@
+.kxip span {
+  font-style: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font: bolder;
+  font-size: larger;
+  color: crimson;
+}
+
+#kxiptxt:hover {
+  font-size: 215%;
+  color: crimson;
+}
+
+.kxip {
+  /* text-decoration-line: underline;*/
+  text-shadow: lightgray 2px 0 10px;
+}
+
+#kxiptxt {
+  margin-top: 75px;
+}
+
+.kxip-content {
+  text-align: justify;
+  font: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #012a4a;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.kxip-content::selection {
+  background-color: lightgray;
+  color: crimson;
+}

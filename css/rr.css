@@ -1,0 +1,36 @@
+.rr span {
+  font-style: normal;
+  font-family: fantasy;
+  font: bolder;
+  font-size: larger;
+  color: fuchsia;
+}
+
+#rrtxt:hover {
+  font-size: 215%;
+  color: fuchsia;
+}
+
+.rr {
+  /* text-decoration-line: underline;*/
+  text-shadow: blue 2px 0 10px;
+}
+
+#rrtxt {
+  margin-top: 75px;
+}
+
+.rr-content {
+  text-align: justify;
+  font: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #012a4a;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.rr-content::selection {
+  background-color: fuchsia;
+  color: blue;
+}

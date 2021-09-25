@@ -30,6 +30,12 @@
   margin-right: 10px;
 }
 
+/*
+.kkr-content:hover {
+  color: midnightblue;
+  background-color: darkgoldenrod;
+}
+*/
 .kkr-content::selection {
   background-color: midnightblue;
   color: darkgoldenrod;

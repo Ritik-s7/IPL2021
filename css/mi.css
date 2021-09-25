@@ -20,6 +20,12 @@
   margin-top: 75px;
 }
 
+/*
+.mi-content:hover {
+  color: goldenrod;
+  background-color: rgb(0, 75, 160);
+}
+*/
 .mi-content {
   text-align: justify;
   font: large;

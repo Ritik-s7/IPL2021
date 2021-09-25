@@ -20,6 +20,13 @@
   margin-top: 75px;
 }
 
+/*
+.dc-content:hover {
+  background-color: #023d8a;
+  color: rgb(226, 59, 61);
+}
+*/
+
 .dc-content {
   text-align: justify;
   font: large;
